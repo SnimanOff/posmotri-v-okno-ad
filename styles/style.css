@@ -12,6 +12,9 @@ html {
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -48,4 +51,37 @@ ol {
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: #D9D9D9;
+}
+
+.content {
+  inline-size: 1140px;
+  display: flex;
+  align-items: flex-end;
+  gap: 30px;
+}
+
+.result {
+  flex-shrink: 0;
+  inline-size: 710px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.content__details {
+  flex-grow: 1;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.content__list-container {
+  block-size: 297px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
 }
