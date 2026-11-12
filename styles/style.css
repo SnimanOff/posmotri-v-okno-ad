@@ -83,5 +83,43 @@ ol {
   block-size: 297px;
   display: flex;
   flex-direction: column;
+  gap: 30px;
   overflow-y: auto;
+}
+
+.result__video-container {
+  inline-size: 710px;
+  block-size: 385px;
+  margin-block-end: 16px;
+}
+
+.result__video {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+}
+
+.content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.content__video-card {
+  display: flex;
+  align-items: flex-start;
+}
+
+.content__video-card-description-container {
+  flex-grow: 1;
+  min-inline-size: 0;
+}
+
+.content__video-card-thumbnail {
+  inline-size: 195px;
+  min-inline-size: 195px;
+  block-size: 102px;
+  object-fit: cover;
+  object-position: center;
 }
