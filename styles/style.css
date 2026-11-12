@@ -311,3 +311,9 @@ ol {
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
 }
+
+.button,
+.content__card-link,
+.search-form__checkbox-list .search-form__label {
+  cursor: pointer;
+}
